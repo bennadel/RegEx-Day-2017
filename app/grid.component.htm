@@ -1,0 +1,15 @@
+
+<table>
+	<tr *ngFor="let row of letters ; let y = index ;">
+		<td 
+			*ngFor="let letter of row ; let x = index ;" 
+			(mousedown)="startSelection( y, x )"
+			(mouseenter)="updateSelection( y, x )"
+			[class.selected]="isSelected( y, x )"
+			[class.pending]="isPending( y, x )">
+
+			{{ letter }}
+
+		</td>
+	</tr>
+</table>

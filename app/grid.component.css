@@ -1,0 +1,31 @@
+
+table {
+	border: 1px solid #DADADA ;
+	border-width: 1px 0px 0px 1px ;
+	border-collapse: collapse ;
+	border-spacing: 0px ;
+	color: #111111 ;
+	cursor: pointer ;
+	font-size: 24px ;
+	user-select: none ;
+		-moz-user-select: none ;
+		-webkit-user-select: none ;
+}
+
+td {
+	border: 1px solid #DADADA ;
+	border-width: 0px 1px 1px 0px ;
+	padding: 13px 17px 13px 17px ;
+	text-align: center ;
+	vertical-align: middle ;
+}
+
+td.selected {
+	background-color: #FF4D4D ;
+	color: #FFFFFF ;
+}
+
+td.pending {
+	background-color: #FFC926 ;
+	color: #222222 ;
+}

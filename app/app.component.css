@@ -1,0 +1,40 @@
+
+:host {
+	display: block ;
+	font-size: 16px ;
+}
+
+re-grid {
+	float: left ;
+}
+
+ul {
+	float: left ;
+	font-size: 20px ;
+	margin-bottom: 0px ;
+	margin-left: 50px ;
+	margin-top: 0px ;
+}
+
+ul li {
+	margin-bottom: 10px ;
+	margin-top: 10px ;
+}
+
+ul li strong {
+	letter-spacing: 2px ;
+}
+
+ul li.found strong {
+	color: #CCCCCC ;
+	text-decoration: line-through ;
+}
+
+ul li.found span.remove {
+	color: #FF6666 ;
+	cursor: pointer ;
+	display: inline-block ;
+	margin-left: 7px ;
+	text-decoration: underline ;
+	text-transform: lowercase ;
+}
